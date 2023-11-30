@@ -27,6 +27,9 @@ A large amount of the functions of the Algorithms package are dedicated to manip
 - (sum *lst*)
 
 # Testing
+
+![Easy Results](resources/RandomResults.png)]
+
 Some of the functions are dedicated to determining if the list is sorted or whether some, or all, of it is true.
 - (all? *lst-of-booleans*)
 - (any? *lst-of-booleans*)
@@ -42,6 +45,8 @@ Some of the most complex algorithms are dedicated to splitting lists or merging 
 - (zip *lst1 lst2 lst3 . . .*)
 - (zip-with *proc lst1 lst2 lst3 . . .*)
 
+![Zipping-With Example](resources/ZippingWithExample.png)
+
 # Generation
 The package only has one function dedicated solely to creating a list from nothing and it is the Generate function. 
 - (generate *n proc*)
@@ -50,18 +55,3 @@ It generates a list of *N* elements from invoking its *proc N* times.
 
 ## Why this?
 Algorithms are a cornerstone of the creation of programs. While a program can be made without the use of programs, the vast majority of them will have at least one. Whether the algorithms are created by the programmer or imported from a package, it will be immensely usefull. So finding this class for Racket, a complex language with hard to understand documentation, was a great find. The package is sleek and simplistic with easy to understand documentation, reliable quality, and functions that were extremely easy to make use of.
-1. Which package/library did you select?
-2. What is the package/library?
-• What purpose does it serve?
-• How do you use it?
-• This section should be the largest and go into lots of detail. Not everything here must
-be utilized in your sample program.
-3. What are the functionalities of the package/library?
-• Snippets of code and examples of output should be given here.
-4. When was it created?
-5. Why did you select this package/library?
-• “Because it is interesting” is not a valid answer. Should elaborate more.
-6. How did learning the package/library influence your learning of the language?
-7. How was your overall experience with the package/library?
-• When would you recommend this package/library to someone?
-• Would you continue using this package/library? Why or why not?

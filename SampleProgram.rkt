@@ -91,8 +91,9 @@
 (product '(1 2 3 4 5))
 (sum '(1 2 3 4 5))
 
-
-
-
+(display "Zipping-with lists: ")
+(println '('(1 2 3 4) '(5 6 7 8) '(9 10 11 12)))
+(display "results: ")
+(zip-with + '(1 2 3 4) '(5 6 7 8) '(9 10 11 12))
 
 
