@@ -6,9 +6,9 @@ Algorithms, by codereport is a short, but immesearably usefull package that gran
 Many of the functions such as adjacent-map, all?, any?, chunks-of, etc. are based on their own counterparts in other languages such as Python and Haskell. Each function has limited variation in options so they are less flexible but also incredibly simple to use.
 
 The most common parameters used by the functions are *proc*, *lst*, and *constants*.
-> proc: A process applied to the list such as +, *, /, and -
-> lst: A list of elements. Most functions work with lists of number but others work with booleans
-> constants: Used to state how large group sizes are, a value, the size of the created list, etc.
+>- proc: A process applied to the list such as +, *, /, and -
+>- lst: A list of elements. Most functions work with lists of number but others work with booleans
+>- constants: Used to state how large group sizes are, a value, the size of the created list, etc.
 
 ## Details
 The Algorithms package was made by codereport and is protected by the MIT license. It was created on the 17th of May 2020, and is still being updated to this day.
@@ -28,23 +28,23 @@ A large amount of the functions of the Algorithms package are dedicated to manip
 
 # Testing
 Some of the functions are dedicated to determining if the list is sorted or whether some, or all, of it is true.
-> (all? *lst-of-booleans*)
-> (any? *lst-of-booleans*)
-> (sorted? *lst*)
-> (increasing? *lst*)
+- (all? *lst-of-booleans*)
+- (any? *lst-of-booleans*)
+- (sorted? *lst*)
+- (increasing? *lst*)
 
 # Merging and Splitting
 Some of the most complex algorithms are dedicated to splitting lists or merging multiple lists.
-> (repeat *n val*)
-> (replicate *lst1 lst2*)
-> (sliding *lst size slides*)
-> (chunks-of *lst group-size*)
-> (zip *lst1 lst2 lst3 . . .*)
-> (zip-with *proc lst1 lst2 lst3 . . .*)
+- (repeat *n val*)
+- (replicate *lst1 lst2*)
+- (sliding *lst size slides*)
+- (chunks-of *lst group-size*)
+- (zip *lst1 lst2 lst3 . . .*)
+- (zip-with *proc lst1 lst2 lst3 . . .*)
 
 # Generation
 The package only has one function dedicated solely to creating a list from nothing and it is the Generate function. 
-> (generate *n proc*)
+- (generate *n proc*)
 It generates a list of *N* elements from invoking its *proc N* times.
 
 
