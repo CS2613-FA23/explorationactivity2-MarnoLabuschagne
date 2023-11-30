@@ -15,7 +15,8 @@ The Algorithms package was made by codereport and is protected by the MIT licens
 
 ## Functions of the Package
 ![Hard Coded Examples of the Functions](resources/AllFunctions.png)
-The package has a variety of algorithms that can be split into X categories
+
+The package has a variety of algorithms that can be split into 4 categories
 # Manipulation
 A large amount of the functions of the Algorithms package are dedicated to manipulating lists. They would either sort the lists while applying the relevant *proc* to them, removing parts of them, or applying some operation to all of the elements to each other. These functions are:
 - (adjacent-map *proc lst*)
