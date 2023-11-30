@@ -18,13 +18,13 @@ The Algorithms package was made by codereport and is protected by the MIT licens
 The package has a variety of algorithms that can be split into X categories
 # Manipulation
 A large amount of the functions of the Algorithms package are dedicated to manipulating lists. They would either sort the lists while applying the relevant *proc* to them, removing parts of them, or applying some operation to all of the elements to each other. These functions are:
-> (adjacent-map *proc lst*)
-> (init *lst*)
-> (tail *lst*)
-> (scanl *proc lst*)
-> (scanr *proc lst*)
-> (product *lst*)
-> (sum *lst*)
+- (adjacent-map *proc lst*)
+- (init *lst*)
+- (tail *lst*)
+- (scanl *proc lst*)
+- (scanr *proc lst*)
+- (product *lst*)
+- (sum *lst*)
 
 # Testing
 Some of the functions are dedicated to determining if the list is sorted or whether some, or all, of it is true.
