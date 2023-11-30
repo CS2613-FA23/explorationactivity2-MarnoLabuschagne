@@ -1,0 +1,119 @@
+	List: 	'(4 9 16 23 30 37 44)
+Adjacent-map: '(13 25 39 53 67 81)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(4 9 16 23 30 37)
+Tail list: '(9 16 23 30 37 44)
+List repeated 4 times: '((4 9 16 23 30 37 44) (4 9 16 23 30 37 44) (4 9 16 23 30 37 44) (4 9 16 23 30 37 44))
+List split into 2 and sliding 3 right
+ for each group: '((4 9) (23 30) (44))
+List split into groups of 2: '((4 9) (16 23) (30 37) (44))
+Scan Left, sum elements successively and sort
+ in increasing order: '(4 13 29 52 82 119 163)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(163 159 150 134 111 81 44)
+Multiply all  elements together: 647032320
+Add all elements together: 163
+
+	List: 	'(6 13 21 28 35 42 49)
+Adjacent-map: '(19 34 49 63 77 91)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(6 13 21 28 35 42)
+Tail list: '(13 21 28 35 42 49)
+List repeated 4 times: '((6 13 21 28 35 42 49) (6 13 21 28 35 42 49) (6 13 21 28 35 42 49) (6 13 21 28 35 42 49))
+List split into 2 and sliding 3 right
+ for each group: '((6 13) (28 35) (49))
+List split into groups of 2: '((6 13) (21 28) (35 42) (49))
+Scan Left, sum elements successively and sort
+ in increasing order: '(6 19 40 68 103 145 194)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(194 188 175 154 126 91 49)
+Multiply all  elements together: 3303583920
+Add all elements together: 194
+
+	List: 	'(10 20 30 40 50)
+Adjacent-map: '(30 50 70 90)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(10 20 30 40)
+Tail list: '(20 30 40 50)
+List repeated 4 times: '((10 20 30 40 50) (10 20 30 40 50) (10 20 30 40 50) (10 20 30 40 50))
+List split into 2 and sliding 3 right
+ for each group: '((10 20) (40 50))
+List split into groups of 2: '((10 20) (30 40) (50))
+Scan Left, sum elements successively and sort
+ in increasing order: '(10 30 60 100 150)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(150 140 120 90 50)
+Multiply all  elements together: 12000000
+Add all elements together: 150
+
+	List: 	'(2 5 8 11 14 17)
+Adjacent-map: '(7 13 19 25 31)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(2 5 8 11 14)
+Tail list: '(5 8 11 14 17)
+List repeated 4 times: '((2 5 8 11 14 17) (2 5 8 11 14 17) (2 5 8 11 14 17) (2 5 8 11 14 17))
+List split into 2 and sliding 3 right
+ for each group: '((2 5) (11 14) ())
+List split into groups of 2: '((2 5) (8 11) (14 17))
+Scan Left, sum elements successively and sort
+ in increasing order: '(2 7 15 26 40 57)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(57 55 50 42 31 17)
+Multiply all  elements together: 209440
+Add all elements together: 57
+
+	List: 	'(3 7 12 18 25 31 37)
+Adjacent-map: '(10 19 30 43 56 68)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(3 7 12 18 25 31)
+Tail list: '(7 12 18 25 31 37)
+List repeated 4 times: '((3 7 12 18 25 31 37) (3 7 12 18 25 31 37) (3 7 12 18 25 31 37) (3 7 12 18 25 31 37))
+List split into 2 and sliding 3 right
+ for each group: '((3 7) (18 25) (37))
+List split into groups of 2: '((3 7) (12 18) (25 31) (37))
+Scan Left, sum elements successively and sort
+ in increasing order: '(3 10 22 40 65 96 133)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(133 130 123 111 93 68 37)
+Multiply all  elements together: 130069800
+Add all elements together: 133
+
+	List: 	'(9 0 1 2 3 4 5 6)
+Adjacent-map: '(9 1 3 5 7 9 11)
+Check if Sorted List: #f
+Check if Increasing: #f
+Init list: '(9 0 1 2 3 4 5)
+Tail list: '(0 1 2 3 4 5 6)
+List repeated 4 times: '((9 0 1 2 3 4 5 6) (9 0 1 2 3 4 5 6) (9 0 1 2 3 4 5 6) (9 0 1 2 3 4 5 6))
+List split into 2 and sliding 3 right
+ for each group: '((9 0) (2 3) (5 6))
+List split into groups of 2: '((9 0) (1 2) (3 4) (5 6))
+Scan Left, sum elements successively and sort
+ in increasing order: '(9 9 10 12 15 19 24 30)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(30 21 21 20 18 15 11 6)
+Multiply all  elements together: 0
+Add all elements together: 30
+
+	List: 	'(1 2 3 4 5 6 7 8)
+Adjacent-map: '(3 5 7 9 11 13 15)
+Check if Sorted List: #t
+Check if Increasing: #t
+Init list: '(1 2 3 4 5 6 7)
+Tail list: '(2 3 4 5 6 7 8)
+List repeated 4 times: '((1 2 3 4 5 6 7 8) (1 2 3 4 5 6 7 8) (1 2 3 4 5 6 7 8) (1 2 3 4 5 6 7 8))
+List split into 2 and sliding 3 right
+ for each group: '((1 2) (4 5) (7 8))
+List split into groups of 2: '((1 2) (3 4) (5 6) (7 8))
+Scan Left, sum elements successively and sort
+ in increasing order: '(1 3 6 10 15 21 28 36)
+Scan Right, sum elements successively and sort
+ in decreasing order: '(36 35 33 30 26 21 15 8)
+Multiply all  elements together: 40320
+Add all elements together: 36
+
